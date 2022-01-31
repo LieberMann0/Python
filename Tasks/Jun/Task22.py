@@ -34,5 +34,5 @@ print(A)
 fill_list(B)
 print(B)
 
-print(f'{distance_2D(A, B): .3}')
-print(f'{distance_3D(A, B): .3}')
+print(f'{distance_2D(A, B): .3f}')
+print(f'{distance_3D(A, B): .3f}')
