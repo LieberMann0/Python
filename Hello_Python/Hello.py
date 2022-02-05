@@ -257,9 +257,16 @@ for e in colors:
 
 for e in colors:
     print(e*2) # redred greengreen blueblue
-colors.append('gray') # добавить в конец
-print(colors == ['red', 'green', 'blue', 'gray']) # True
+colors.append('gray') # добавить в конец 'gray'
+print(colors) # ['red', 'green', 'blue', 'gray']
+colors.insert(2, 'yellow') # добавить на 3-ю позицию 'yellow'
+print(colors) # ['red', 'green', 'yellow', 'blue', 'gray']
+print(colors == ['red', 'green', 'yellow', 'blue', 'gray']) # True
 colors.remove('red') # del colors[0] # удалить элемент
+colors.pop() # удаление последнего элемента в списке
+colors.pop(2) # удаление в конкретном примере 3-го элемента в списке
+
+
 
 # Функции
 def f(x):
